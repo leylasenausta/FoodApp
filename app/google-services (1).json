@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1040714194767",
+    "firebase_url": "https://tarifim-33616.firebaseio.com",
+    "project_id": "tarifim-33616",
+    "storage_bucket": "tarifim-33616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040714194767:android:afb99172519ce44fffef3a",
+        "android_client_info": {
+          "package_name": "com.leylasenaust.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040714194767-nbnaqjbhgj030n7c61gvrq18hhcveflu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leylasenaust.myapplication",
+            "certificate_hash": "dd5983c2e3ad020251aca0cd0fd937f45d21984e"
+          }
+        },
+        {
+          "client_id": "1040714194767-jadnl5bi7l83sbd5ir6pkiqhrf4tc38e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC40fLkiZZ9NzOMRn6-gGSE7Qqf8zd7uFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040714194767-jadnl5bi7l83sbd5ir6pkiqhrf4tc38e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

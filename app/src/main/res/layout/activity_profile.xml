@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.ProfileActivity"
+    android:background="#F5F5F5">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pprofileRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/text_view_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Leyla sena"
+                android:textAlignment="center"
+
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/circle_profile_image_profile" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageprofilesetting"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/tab_user_add" />
+
+            <ImageView
+                android:id="@+id/imageprofilesetting"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/tab_profile_more_edit" />
+
+            <View
+                android:id="@+id/golge"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="45dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+            </View>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle_profile_image_profile"
+                android:layout_width="109dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/tab_profile"
+                app:civ_border_color="@color/colorPrimaryDark"
+                app:civ_border_width="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/golge"
+                tools:ignore="MissingConstraints" />
+
+            <View
+                android:id="@+id/golge1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                tools:ignore="MissingConstraints">
+
+            </View>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="35"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/textView_profile_true_name"
+                tools:layout_editor_absoluteX="275dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:text="500"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView_profile_true_name" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Gönderi"
+                android:textAlignment="center"
+                android:textColor="#17202A"
+                app:layout_constraintEnd_toEndOf="@+id/textView5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/edit_profile_bottom_background"
+                android:padding="6dp"
+                android:text="Profili Düzenle"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/golge"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Takip "
+                android:textAlignment="center"
+                android:textColor="#17202A"
+                app:layout_constraintEnd_toEndOf="@+id/textView7"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="45dp"
+                android:text="1300"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView_profile_true_name" />
+
+            <TextView
+                android:id="@+id/textView_profile_true_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+                android:text="Kullanici Gerçek adi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_profile_name" />
+
+            <TextView
+                android:id="@+id/textView_biog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Biografi"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/golge1" />
+
+            <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+                android:id="@+id/boottoom_Nagivation_View_setting"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorOrange"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/bottom_nagivation_menuu"
+                tools:ignore="MissingConstraints">
+
+            </com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Takipçi"
+                android:textColor="#17202A"
+                app:layout_constraintEnd_toEndOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/ppRofileContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
